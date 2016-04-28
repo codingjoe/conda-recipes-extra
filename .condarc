@@ -4,6 +4,5 @@ channels:
   - omnia
   - defaults
   - conda-forge
-  - r
+  - salford_systems
   - ostrokach
-
