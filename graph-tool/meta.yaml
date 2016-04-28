@@ -4,11 +4,11 @@ package:
 
 source:
   git_url: https://git.skewed.de/count0/graph-tool.git
-  git_rev: release-2.16 
+  git_rev: release-2.16
 
 build:
-  number: 1 
-  
+  number: 1
+
 requirements:
   build:
     - m4
@@ -16,7 +16,7 @@ requirements:
     - automake
     - pkg-config
     - libtool
-    # - gcc
+    - gcc
     # ...
     - python
     - numpy
@@ -49,7 +49,7 @@ requirements:
     - freetype
     - expat
     - libpng
-    - pygobject 
+    - pygobject
     - fontconfig
     - librsvg
     - bzip2
@@ -62,4 +62,3 @@ test:
 about:
   summary: 'Efficient network analysis'
   license: GPL
-
